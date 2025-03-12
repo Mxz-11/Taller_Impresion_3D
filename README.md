@@ -12,36 +12,78 @@ UltiMaker Cura es un software gratuito y fácil de usar para la impresión 3D, c
 
 ## Requisitos del sistema
 
-Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los requisitos mínimos. Puedes consultar los requisitos del sistema en la página oficial de UltiMaker Cura.
+Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los requisitos mínimos.
+**Tarjeta gráfica**: Compatible con OpenGL 2; se recomienda OpenGL 4.1 para la vista en 3D de las capas.​
+**Resolución de pantalla**: 1024 x 768 píxeles.​
+**Procesador**: Intel Core 2 o AMD Athlon 64.​
+**Memoria RAM**: 550 MB disponibles.
 
 ## Instalación en Windows
 
-1. **Descarga**: Visita la [página oficial de UltiMaker Cura](https://ultimaker.com/es/software/ultimaker-cura) y descarga el instalador para Windows.&#8203;:contentReference[oaicite:0]{index=0}
-2. **Ejecución del instalador**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+1. **Descarga**: Visita la página oficial de UltiMaker Cura y descarga el instalador para Windows.​ (https://ultimaker.com/es/software/ultimaker-cura/)
+
+2. **Ejecución del instalador**: Una vez descargado, localiza el archivo en tu carpeta de descargas y haz doble clic para ejecutarlo.​
+support.academicsoftware.eu
+
 3. **Asistente de instalación**:
-   - :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-   - :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
-   - :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
-4. **Finalización**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+
+    Acuerdo de licencia: Lee y acepta los términos del acuerdo de licencia para continuar.​
+    Ubicación de instalación: Elige la carpeta donde deseas instalar el programa o utiliza la ubicación predeterminada.​
+    Componentes adicionales: Selecciona si deseas instalar complementos o configuraciones adicionales según tus necesidades.​
+
+4. **Finalización**: Tras completar la instalación, puedes iniciar UltiMaker Cura desde el acceso directo en el escritorio o desde el menú Inicio.
 
 ## Instalación en macOS
 
-1. **Descarga**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-2. **Montaje de la imagen**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+1. **Descarga**:
+
+    Accede a la página oficial de UltiMaker Cura.​ (https://ultimaker.com/es/software/ultimaker-cura/)
+    En la sección de descargas, encontrarás diferentes versiones del instalador para macOS:​
+        MacOS-x64.dmg: Para Macs con procesadores Intel.
+        MacOS-ARM64.dmg: Para Macs con procesadores Apple Silicon (M1, M2 y posteriores).
+    Selecciona el archivo que corresponda a la arquitectura de tu Mac y descárgalo.​
+
+2. **Montaje de la imagen**:
+
+    Una vez completada la descarga, localiza el archivo .dmg en tu carpeta de descargas y haz doble clic para montar la imagen de disco.​
+
 3. **Instalación**:
-   - :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
-   - :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-4. **Ejecución**: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
+
+    Se abrirá una ventana que mostrará el contenido de la imagen de disco.​
+    Arrastra el icono de UltiMaker Cura a la carpeta Aplicaciones para copiar el software a tu sistema.​
+
+4. **Ejecución inicial**:
+
+    Navega a la carpeta Aplicaciones y haz doble clic en el icono de UltiMaker Cura para iniciar el programa.​
+    La primera vez que ejecutes el software, macOS puede mostrar una advertencia indicando que la aplicación se descargó de internet. Haz clic en "Abrir" para continuar.​
 
 ## Instalación en Linux
 
-1. **Descarga**: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
-2. **Permisos de ejecución**:
-   - :contentReference[oaicite:23]{index=23}&#8203;:contentReference[oaicite:24]{index=24}
-   - :contentReference[oaicite:25]{index=25}&#8203;:contentReference[oaicite:26]{index=26}
+1. **Descarga**:
+
+   Visita la página oficial de UltiMaker Cura (https://ultimaker.com/es/software/ultimaker-cura/) y descarga el archivo .AppImage correspondiente a la versión más reciente.
+   
+3. **Asigna permisos de ejecución**:
+
+   Abre una terminal y navega hasta el directorio donde descargaste el archivo.​
+   Otorga permisos de ejecución al archivo con el siguiente comando:
      ```bash
      chmod +x UltiMaker-Cura-<versión>.AppImage
      ```
-3. **Ejecución**: :contentReference[oaicite:27]{index=27}&#8203;:contentReference[oaicite:28]{index=28}
+    Reemplaza <versión> con la versión específica del archivo descargado.
+     
+4. **Ejecución**:
+
+   En la misma terminal, ejecuta el archivo con:
    ```bash
    ./UltiMaker-Cura-<versión>.AppImage
+   ```
+
+   Si encuentras problemas al ejecutar el .AppImage, asegúrate de tener instaladas las dependencias necesarias, como fuse y libnss3.
+
+   ```bash
+   sudo apt update
+   sudo apt install fuse libnss3
+   ```
+
+   
