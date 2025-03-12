@@ -2,6 +2,12 @@
 
 UltiMaker Cura es un software gratuito y fácil de usar para la impresión 3D, confiado por millones de usuarios. Permite ajustar finamente tus modelos 3D con más de 400 configuraciones para obtener los mejores resultados de corte e impresión.
 
+## Archivos para el taller
+
+**Primera impresión**: https://www.thingiverse.com/thing:327753
+
+**Impresión con soportes**: https://www.thingiverse.com/thing:1376811
+
 ## Índice
 
 - [Requisitos del sistema](#requisitos-del-sistema)
