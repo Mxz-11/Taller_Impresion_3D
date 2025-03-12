@@ -12,9 +12,13 @@ UltiMaker Cura es un software gratuito y fácil de usar para la impresión 3D, c
 ## Requisitos del sistema
 
 Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los requisitos mínimos.
+
 **Tarjeta gráfica**: Compatible con OpenGL 2; se recomienda OpenGL 4.1 para la vista en 3D de las capas.​
+
 **Resolución de pantalla**: 1024 x 768 píxeles.​
+
 **Procesador**: Intel Core 2 o AMD Athlon 64.​
+
 **Memoria RAM**: 550 MB disponibles.
 
 ## Instalación en Windows
