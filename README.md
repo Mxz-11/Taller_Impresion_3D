@@ -26,7 +26,6 @@ Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los r
 1. **Descarga**: Visita la página oficial de UltiMaker Cura y descarga el instalador para Windows.​ (https://ultimaker.com/es/software/ultimaker-cura/)
 
 2. **Ejecución del instalador**: Una vez descargado, localiza el archivo en tu carpeta de descargas y haz doble clic para ejecutarlo.​
-support.academicsoftware.eu
 
 3. **Asistente de instalación**:
 
