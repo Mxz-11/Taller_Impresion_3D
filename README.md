@@ -8,7 +8,6 @@ UltiMaker Cura es un software gratuito y fácil de usar para la impresión 3D, c
 - [Instalación en Windows](#instalación-en-windows)
 - [Instalación en macOS](#instalación-en-macos)
 - [Instalación en Linux](#instalación-en-linux)
-- [Recursos adicionales](#recursos-adicionales)
 
 ## Requisitos del sistema
 
