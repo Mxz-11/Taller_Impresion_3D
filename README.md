@@ -94,4 +94,6 @@ Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los r
    sudo apt install fuse libnss3
    ```
 
-   
+# Contactarnos
+Max: alu.167442@usj.es
+Jorge: alu.139992@usj.es
