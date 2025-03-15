@@ -97,3 +97,104 @@ Antes de comenzar la instalación, asegúrate de que tu sistema cumple con los r
 # Contactarnos
 Max: alu.167442@usj.es
 Jorge: alu.139992@usj.es
+
+
+# UltiMaker Cura Installation Guide
+
+UltiMaker Cura is a free and easy-to-use 3D printing software, trusted by millions of users. It allows you to finely adjust your 3D models with over 400 settings to achieve the best slicing and printing results.
+
+## Workshop Files
+
+### First Print
+[Thingiverse Link](https://www.thingiverse.com/thing:327753)
+
+### Printing with Supports
+[Thingiverse Link](https://www.thingiverse.com/thing:1376811)
+
+## Index
+
+- [System Requirements](#system-requirements)
+- [Installation on Windows](#installation-on-windows)
+- [Installation on macOS](#installation-on-macos)
+- [Installation on Linux](#installation-on-linux)
+
+## System Requirements
+
+Before starting the installation, ensure that your system meets the minimum requirements.
+
+### Graphics Card
+- OpenGL 2 compatible; OpenGL 4.1 recommended for 3D layer view.
+
+### Screen Resolution
+- 1024 x 768 pixels.
+
+### Processor
+- Intel Core 2 or AMD Athlon 64.
+
+### RAM
+- 550 MB available.
+
+## Installation on Windows
+
+### 1. Download
+Visit the official [UltiMaker Cura website](https://ultimaker.com/software/ultimaker-cura/) and download the Windows installer.
+
+### 2. Run the Installer
+Once downloaded, locate the file in your downloads folder and double-click to run it.
+
+### 3. Installation Wizard
+- **License Agreement**: Read and accept the terms of the license agreement to proceed.
+- **Installation Location**: Choose the folder where you want to install the program or use the default location.
+- **Additional Components**: Select if you want to install add-ons or additional configurations based on your needs.
+
+### 4. Completion
+After the installation is complete, you can launch UltiMaker Cura from the desktop shortcut or the Start menu.
+
+## Installation on macOS
+
+### 1. Download
+- Visit the official [UltiMaker Cura website](https://ultimaker.com/software/ultimaker-cura/).
+- In the downloads section, you will find different versions of the macOS installer:
+  - **MacOS-x64.dmg**: For Macs with Intel processors.
+  - **MacOS-ARM64.dmg**: For Macs with Apple Silicon processors (M1, M2, and later).
+- Select the file corresponding to your Mac's architecture and download it.
+
+### 2. Mount the Disk Image
+Once the download is complete, locate the `.dmg` file in your downloads folder and double-click to mount the disk image.
+
+### 3. Installation
+- A window displaying the disk image contents will open.
+- Drag the UltiMaker Cura icon to the Applications folder to copy the software to your system.
+
+### 4. Initial Launch
+- Navigate to the Applications folder and double-click the UltiMaker Cura icon to start the program.
+- The first time you run the software, macOS may display a warning indicating that the application was downloaded from the internet. Click **Open** to continue.
+
+## Installation on Linux
+
+### 1. Download
+Visit the official [UltiMaker Cura website](https://ultimaker.com/software/ultimaker-cura/) and download the `.AppImage` file corresponding to the latest version.
+
+### 2. Grant Execution Permissions
+- Open a terminal and navigate to the directory where you downloaded the file.
+- Grant execution permissions to the file using the following command:
+  ```bash
+  chmod +x UltiMaker-Cura-<version>.AppImage
+  ```
+- Replace `<version>` with the specific version of the downloaded file.
+
+### 3. Run the Software
+- In the same terminal, execute the file with:
+  ```bash
+  ./UltiMaker-Cura-<version>.AppImage
+  ```
+- If you encounter issues running the `.AppImage`, ensure you have the necessary dependencies installed, such as `fuse` and `libnss3`:
+  ```bash
+  sudo apt update
+  sudo apt install fuse libnss3
+  ```
+
+## Contact Us
+- **Max**: [alu.167442@usj.es](mailto:alu.167442@usj.es)
+- **Jorge**: [alu.139992@usj.es](mailto:alu.139992@usj.es)
+
